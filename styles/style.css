@@ -1,0 +1,242 @@
+/* общие стили */
+body {
+    width: 1440px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.subtitle {
+    font-family: "RobotoBold";
+}
+
+.title {
+    font-family: "Yellowtail";
+}
+
+/* обшие стили для кнопок */
+/* <<<<<<<<<<<<<<<<<<<<<<<< */
+.button {
+    border-radius: 16px;
+    height: 82px;
+    font-size: 19px;
+    font-family: Roboto;
+    line-height: 32px;
+    letter-spacing: 0.36px;
+    text-transform: capitalize;
+    /* padding-left: 20px; */
+}
+
+.arrow {
+    display: inline-block;
+    border-radius: 40px;
+    width: 36px;
+    height: 33px;
+}
+
+.button-yellow {
+    border: 1px solid #EFD372;
+    background: #EFD372;
+}
+
+.arrow-yellow {
+    background-color: #335B6B;
+    border: 1px solid #335B6B;
+    margin-left: 24px;
+}
+
+
+/* .button-darkgrey {} */
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>> */
+
+/* Общие стили цветов для title, subtitle */
+.text-white {
+    color: #ffffff;
+}
+
+.text-green {
+    color: #7EB693;
+}
+
+.text-darkgrey {
+    color: #274C5B;
+}
+
+
+/* header */
+.header {
+    padding-top: 40px;
+    /* padding-bottom: 54px; */
+}
+
+.header-logo {
+    margin-top: 7px;
+    margin-left: 30px;
+}
+
+.header-menu {
+    margin-top: -48px;
+    margin-left: 310px;
+    list-style: none;
+}
+
+.menu-element {
+    display: inline-block;
+    font-family: "RobotoRegular";
+    color: #274C5B;
+    cursor: pointer;
+    font-size: 19px;
+    line-height: 32px;
+    padding-right: 38px;
+    letter-spacing: 0.36px;
+}
+
+.menu-element:last-child {
+    padding-left: 22px;
+}
+
+.menu-element:hover {
+    font-family: "RobotoRegular";
+    color: #7EB693;
+}
+
+
+.basket {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "RobotoRegular";
+    color: #274C5B;
+    background-color: #FFFFFF;
+    border: 1px solid #D4D4D4;
+    border-radius: 33px;
+    margin-top: -66px;
+    margin-left: 1251px;
+    height: 70px;
+    width: 159px;
+    font-size: 17px;
+}
+
+.basket-img {
+    width: 56px;
+    height: 56px;
+    margin-left: -22px;
+    margin-top: 0px;
+}
+
+.basket-text {
+    margin-bottom: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.basket-quantity {
+    margin-bottom: 3px;
+}
+
+/* welcome */
+.welcome {
+    padding-top: 40px;
+    height: 913px;
+}
+
+.welcome__container {
+    background-image: url(../img/main-image.svg);
+    background-size: cover;
+    background-size: no-repeat;
+    width: 1440px;
+    height: 913px;
+}
+
+.welcome__title {
+    color: #7EB693;
+    font-size: 36px;
+    font-family: Yellowtail;
+    line-height: 64.8px;
+    letter-spacing: 0.36px;
+    text-transform: capitalize;
+    padding-top: 220px;
+    padding-left: 30px;
+}
+
+.welcome__subtitle {
+    color: #274C5B;
+    font-size: 70px;
+    font-family: Roboto;
+    font-weight: 700;
+    line-height: 84px;
+    letter-spacing: 0.36px;
+    width: 525px;
+    padding-top: 14px;
+    padding-left: 30px;
+}
+
+.welcome__button {
+    width: 219px;
+    margin-top: 30px;
+    margin-left: 30px;
+    color: #274C5B;
+    font-size: 19px;
+    font-family: Roboto;
+    line-height: 32px;
+    letter-spacing: 0.36px;
+    text-transform: capitalize;
+    padding-left: 29px;
+    padding-top: 2px;
+}
+
+/* short-info */
+.short-info {
+    margin-top: 140px;
+    margin-bottom: 140px;
+}
+
+.short-info__list {
+    margin: 0;
+    /* margin-top: 35px; */
+    margin-left: -10px;
+    list-style: none;
+}
+
+.short-info__item {
+    display: inline-block;
+}
+
+.short-info__item:not(:last-child) {
+    margin-right: 46px;
+}
+
+.short-info__item:nth-child(1) {
+    background-image: url(../img/natural.svg);
+    background-size: cover;
+    background-size: no-repeat;
+    width: 665px;
+    height: 378px;
+}
+
+.short-info__item:nth-child(2) {
+    background-image: url(../img/offer.svg);
+    background-size: cover;
+    background-size: no-repeat;
+    width: 665px;
+    height: 378px;
+}
+
+.short-info__title {
+    font-size: 36px;
+    font-family: Yellowtail;
+    line-height: 64.8px;
+    letter-spacing: 0.36px;
+    padding-top: 105px;
+    padding-left: 55px;
+}
+
+.short-info__subtitle {
+    font-size: 40px;
+    font-family: Roboto;
+    line-height: 52px;
+    letter-spacing: 0.36px;
+    padding-top: 1px;
+    padding-left: 55px;
+    width: 264px;
+}

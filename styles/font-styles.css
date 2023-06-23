@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "RobotoRegular";
+    src: url("fonts/Roboto/Roboto-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "RobotoBold";
+    src: url("fonts/Roboto/Roboto-Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Yellowtail";
+    src: url("fonts/Yellowtail/Yellowtail-Regular.ttf") format("truetype");
+}
