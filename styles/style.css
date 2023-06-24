@@ -1,4 +1,4 @@
-/* общие стили */
+/* ----------- общие стили -----------*/
 body {
     width: 1440px;
     margin: 0 auto;
@@ -7,10 +7,15 @@ body {
 
 .subtitle {
     font-family: "RobotoBold";
+    color: #274C5B;
+    font-size: 70px;
+    font-family: Roboto;
 }
 
 .title {
     font-family: "Yellowtail";
+    color: #7EB693;
+    font-size: 36px;
 }
 
 .info-text {
@@ -21,7 +26,7 @@ body {
     letter-spacing: 0.36px;
 }
 
-/* обшие стили для кнопок */
+/* ----------- обшие стили для кнопок ----------- */
 /* <<<<<<<<<<<<<<<<<<<<<<<< */
 .button {
     border-radius: 16px;
@@ -102,7 +107,7 @@ body {
 }
 
 
-/* header */
+/* ----------- header ----------- */
 .header {
     padding-top: 40px;
     /* padding-bottom: 54px; */
@@ -113,13 +118,13 @@ body {
     margin-left: 30px;
 }
 
-.header-menu {
+.header__menu {
     margin-top: -48px;
     margin-left: 310px;
     list-style: none;
 }
 
-.menu-element {
+.menu__item {
     display: inline-block;
     font-family: "RobotoRegular";
     color: #274C5B;
@@ -130,17 +135,17 @@ body {
     letter-spacing: 0.36px;
 }
 
-.menu-element:last-child {
+.menu__item:last-child {
     padding-left: 22px;
 }
 
-.menu-element:hover {
+.menu__item:hover {
     font-family: "RobotoRegular";
     color: #7EB693;
 }
 
 
-.basket {
+.header__basket {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -156,25 +161,25 @@ body {
     font-size: 17px;
 }
 
-.basket-img {
+.header__basket-img {
     width: 56px;
     height: 56px;
     margin-left: -22px;
     margin-top: 0px;
 }
 
-.basket-text {
+.header__basket-text {
     margin-bottom: 3px;
     padding-left: 10px;
     padding-right: 10px;
 }
 
-.basket-quantity {
+.header__basket-quantity {
     margin-bottom: 3px;
 }
 
-/* welcome */
-.welcome {
+/* ----------- header__welcome -----------*/
+.header__welcome {
     padding-top: 40px;
     height: 913px;
 }
@@ -188,9 +193,9 @@ body {
 }
 
 .welcome__title {
-    color: #7EB693;
+    /* color: #7EB693;
     font-size: 36px;
-    font-family: Yellowtail;
+    font-family: Yellowtail; */
     line-height: 64.8px;
     letter-spacing: 0.36px;
     text-transform: capitalize;
@@ -199,9 +204,9 @@ body {
 }
 
 .welcome__subtitle {
-    color: #274C5B;
+    /* color: #274C5B;
     font-size: 70px;
-    font-family: Roboto;
+    font-family: Roboto; */
     font-weight: 700;
     line-height: 84px;
     letter-spacing: 0.36px;
@@ -224,8 +229,8 @@ body {
     padding-top: 2px; */
 }
 
-/* short-info */
-.short-info {
+/* ----------- short-info -----------*/
+.short-info__container {
     margin-top: 140px;
     margin-bottom: 140px;
 }
@@ -263,7 +268,6 @@ body {
 
 .short-info__title {
     font-size: 36px;
-    font-family: Yellowtail;
     line-height: 64.8px;
     letter-spacing: 0.36px;
     padding-top: 105px;
@@ -272,7 +276,6 @@ body {
 
 .short-info__subtitle {
     font-size: 40px;
-    font-family: Roboto;
     line-height: 52px;
     letter-spacing: 0.36px;
     padding-top: 1px;
@@ -280,7 +283,7 @@ body {
     width: 264px;
 }
 
-/* about-us */
+/* ----------- about-us -----------*/
 .about-us__container {
     height: 1006px;
     background: #F9F8F8;
@@ -310,8 +313,11 @@ body {
 
 .about-us__subtitle {
     font-size: 45px;
+    font-family: Roboto;
+    font-weight: 700;
     line-height: 58.5px;
     letter-spacing: 0.36px;
+    text-transform: capitalize;
     width: 521px;
     margin-top: 0px;
     margin-left: 30px;
@@ -390,3 +396,5 @@ body {
     margin-top: 12px;
     width: 199px;
 }
+
+/* ----------- our-product -----------*/
