@@ -13,6 +13,14 @@ body {
     font-family: "Yellowtail";
 }
 
+.info-text {
+    font-family: "OpenSans";
+    color: #525C60;
+    font-size: 18px;
+    line-height: 32.4px;
+    letter-spacing: 0.36px;
+}
+
 /* обшие стили для кнопок */
 /* <<<<<<<<<<<<<<<<<<<<<<<< */
 .button {
@@ -31,21 +39,52 @@ body {
     border-radius: 40px;
     width: 36px;
     height: 33px;
-}
 
-.button-yellow {
-    border: 1px solid #EFD372;
-    background: #EFD372;
-}
-
-.arrow-yellow {
     background-color: #335B6B;
     border: 1px solid #335B6B;
     margin-left: 24px;
 }
 
+.button-yellow {
+    border: 1px solid #EFD372;
+    background: #EFD372;
+    text-transform: capitalize;
+    padding-left: 29px;
+    padding-top: 2px;
+    color: #274C5B;
+    font-size: 19px;
+    font-family: Roboto;
+    line-height: 32px;
+    letter-spacing: 0.36px;
+    text-transform: capitalize;
+}
 
-/* .button-darkgrey {} */
+/* .arrow {
+    background-color: #335B6B;
+    border: 1px solid #335B6B;
+    margin-left: 24px;
+} */
+
+
+.button-darkgrey {
+    border: 1px solid #274C5B;
+    background: #274C5B;
+    text-transform: capitalize;
+    padding-left: 29px;
+    padding-top: 2px;
+    color: #FFF;
+    font-size: 19px;
+    font-family: Roboto;
+    line-height: 32px;
+    letter-spacing: 0.6px;
+    text-transform: capitalize;
+}
+
+/* .arrow-yellow {
+    background-color: #335B6B;
+    border: 1px solid #335B6B;
+    margin-left: 24px;
+} */
 
 /* >>>>>>>>>>>>>>>>>>>>>>>>> */
 
@@ -175,14 +214,14 @@ body {
     width: 219px;
     margin-top: 30px;
     margin-left: 30px;
-    color: #274C5B;
+    /* color: #274C5B;
     font-size: 19px;
     font-family: Roboto;
-    line-height: 32px;
-    letter-spacing: 0.36px;
-    text-transform: capitalize;
+    line-height: 32px; */
+    /* letter-spacing: 0.36px; */
+    /* text-transform: capitalize;
     padding-left: 29px;
-    padding-top: 2px;
+    padding-top: 2px; */
 }
 
 /* short-info */
@@ -239,4 +278,115 @@ body {
     padding-top: 1px;
     padding-left: 55px;
     width: 264px;
+}
+
+/* about-us */
+.about-us__container {
+    height: 1006px;
+    background: #F9F8F8;
+}
+
+.about-us__info {
+    width: 675px;
+    margin-top: -695px;
+    margin-left: 705px;
+}
+
+.about-us__img {
+    display: inline-block;
+    width: 675px;
+    height: 642px;
+    margin-top: 177px;
+    margin-left: 30px;
+}
+
+.about-us__title {
+    font-size: 36px;
+    line-height: 64.8px;
+    letter-spacing: 0.36px;
+    /* margin-top: 130px; */
+    margin-left: 30px;
+}
+
+.about-us__subtitle {
+    font-size: 45px;
+    line-height: 58.5px;
+    letter-spacing: 0.36px;
+    width: 521px;
+    margin-top: 0px;
+    margin-left: 30px;
+}
+
+.about-us__description {
+    width: 670px;
+    margin-top: 22px;
+    margin-left: 30px;
+}
+
+.about-us__list {
+    list-style: none;
+    margin-top: 56px;
+    margin-left: -8px;
+}
+
+.about-us__item {
+    margin-bottom: 30px;
+}
+
+.about-us__item-img {
+    border-radius: 20px;
+    background: #FFF;
+    padding: 29px 24px 24px 22px;
+}
+
+.about-us__item:nth-child(1) .about-us__item-img {
+    width: 53px;
+    height: 46px;
+    padding: 29px 24px 24px 22px;
+}
+
+.about-us__item:nth-child(2) .about-us__item-img {
+    width: 56px;
+    height: 52px;
+    padding: 20px 24px 24px 20px;
+}
+
+.about-us__item-description {
+    margin-left: 20px;
+}
+
+.item-description__title {
+    font-size: 25px;
+    line-height: 35px;
+    letter-spacing: 0.36px;
+}
+
+.about-us__item:nth-child(1) .about-us__item-description {
+    margin-top: -103px;
+    margin-left: 118px;
+}
+
+.about-us__item:nth-child(1) .item-description__text {
+    margin-top: 10px;
+    width: 552px
+}
+
+.about-us__item:nth-child(2) .about-us__item-description {
+    margin-top: -114px;
+    margin-left: 118px;
+}
+
+.about-us__item:nth-child(2) .item-description__title {
+    margin-top: 7px;
+}
+
+.about-us__item:nth-child(2) .item-description__text {
+    margin-top: 10px;
+    width: 539px;
+}
+
+.about-us__button {
+    margin-left: 30px;
+    margin-top: 12px;
+    width: 199px;
 }

@@ -12,3 +12,8 @@
     font-family: "Yellowtail";
     src: url("fonts/Yellowtail/Yellowtail-Regular.ttf") format("truetype");
 }
+
+@font-face {
+    font-family: "OpenSans";
+    src: url("fonts/OpenSans/OpenSans-Regular.ttf") format("truetype");
+}
