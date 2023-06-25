@@ -29,6 +29,7 @@ body {
 /* ----------- обшие стили для кнопок ----------- */
 /* <<<<<<<<<<<<<<<<<<<<<<<< */
 .button {
+    cursor: pointer;
     border-radius: 16px;
     height: 82px;
     font-size: 19px;
@@ -141,7 +142,7 @@ body {
     /* padding-bottom: 54px; */
 }
 
-.header-logo {
+.header__logo {
     margin-top: 7px;
     margin-left: 30px;
 }
@@ -172,6 +173,18 @@ body {
     color: #7EB693;
 }
 
+.menu__link {
+    text-decoration: none;
+    cursor: pointer;
+    color: #274C5B;
+
+}
+
+.menu__link:hover {
+    text-decoration: none;
+    cursor: pointer;
+    color: #7EB693;
+}
 
 .header__basket {
     display: flex;
@@ -1216,6 +1229,7 @@ body {
 }
 
 .general-info__item {
+    cursor: pointer;
     padding: 20px;
     margin-top: 60px;
     display: inline-block;
@@ -1288,6 +1302,7 @@ body {
 }
 
 .utility-pages__item {
+    cursor: pointer;
     margin-bottom: 24px;
     color: #525C60;
     font-size: 18px;

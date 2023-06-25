@@ -4,19 +4,36 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Organick</title>
+    <link rel="icon" href="./img/logo.ico" />
     <link rel="stylesheet" href="./styles/font-styles.css" />
     <link rel="stylesheet" href="./styles/style.css" />
   </head>
   <body>
     <header class="header">
-      <img src="./img/logo.svg" alt="logo" class="header-logo logo" />
+      <img src="./img/logo.svg" alt="logo" class="header__logo logo" />
       <nav class="nav">
         <ul class="header__menu menu">
-          <li class="menu__item">Home</li>
-          <li class="menu__item">About Us</li>
-          <li class="menu__item">Shop</li>
-          <li class="menu__item">Pages</li>
-          <li class="menu__item">Contact Us</li>
+          <li class="menu__item">
+            <a class="menu__link" href="#" target="_self">Home</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#about-us__link" target="_self"
+              >About Us</a
+            >
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#organic__link" target="_self">Shop</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#testimonial__link" target="_self"
+              >Pages</a
+            >
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#contact-us__link" target="_self"
+              >Contact Us</a
+            >
+          </li>
         </ul>
       </nav>
       <button class="header__basket">
@@ -57,7 +74,7 @@
         </ul>
       </div>
     </section>
-    <section class="about-us">
+    <section class="about-us" id="about-us__link">
       <div class="about-us__container">
         <img
           class="about-us__img"
@@ -118,7 +135,7 @@
         </div>
       </div>
     </section>
-    <section class="our-product">
+    <section class="our-product" id="organic__link">
       <div class="our-product__container">
         <div class="our-product__title title">Organic</div>
         <div class="our-product__subtitle subtitle">
@@ -218,7 +235,7 @@
         </div>
       </div>
     </section>
-    <section class="testimonial">
+    <section class="testimonial" id="testimonial__link">
       <div class="testimonial__container">
         <div class="testimonial__title title text-green">Testimonial</div>
         <div class="testimonial__subtitle subtitle text-darkgrey">
@@ -501,7 +518,7 @@
           </form>
         </div>
       </section>
-      <section class="footer__general-info general-info">
+      <section class="footer__general-info general-info" id="contact-us__link">
         <div class="general-info__container">
           <div class="general-info__contact-us">
             <div class="general-info__title subtitle">Contact Us</div>
@@ -536,32 +553,38 @@
             </div>
             <ul class="general-info__list">
               <li class="general-info__item">
-                <img
-                  class="general-info__img"
-                  src="./img/footer/contacts/fb.png"
-                  alt="fb"
-                />
+                <a href="https://www.facebook.com/" target="_blank">
+                  <img
+                    class="general-info__img"
+                    src="./img/footer/contacts/fb.png"
+                    alt="fb"
+                  />
+                </a>
               </li>
               <li class="general-info__item">
-                <img
-                  class="general-info__img"
-                  src="./img/footer/contacts/twitter.png"
-                  alt="twitter"
-                />
+                <a href="https://twitter.com" target="_blank">
+                  <img
+                    class="general-info__img"
+                    src="./img/footer/contacts/twitter.png"
+                    alt="twitter"
+                  />
+                </a>
               </li>
               <li class="general-info__item">
-                <img
-                  class="general-info__img"
-                  src="./img/footer/contacts/instagram.png"
-                  alt="instagram"
-                />
+                <a href="https://www.instagram.com/" target="_blank">
+                  <img
+                    class="general-info__img"
+                    src="./img/footer/contacts/instagram.png"
+                    alt="instagram"
+                /></a>
               </li>
               <li class="general-info__item">
-                <img
-                  class="general-info__img"
-                  src="./img/footer/contacts/pinterest.png"
-                  alt="pinterest"
-                />
+                <a href="https://www.pinterest.com/" target="_blank">
+                  <img
+                    class="general-info__img"
+                    src="./img/footer/contacts/pinterest.png"
+                    alt="pinterest"
+                /></a>
               </li>
             </ul>
           </div>
